@@ -2,8 +2,22 @@ apiVersion: v1
 entries:
   group-sync-operator:
   - apiVersion: v1
+    appVersion: v0.0.12
+    created: "2021-01-11T19:42:32.632078525Z"
+    description: Helm chart that deploys the group-sync-operator
+    digest: 525c82b827758880e53f9f10d0d42351283f66ff808653039bd50a97f34b6e47
+    keywords:
+    - authorization
+    - security
+    name: group-sync-operator
+    sources:
+    - https://github.com/redhat-cop/group-sync-operator
+    urls:
+    - https://Koma-Andrea.github.io/group-sync-operator/group-sync-operator/group-sync-operator-v0.0.12.tgz
+    version: v0.0.12
+  - apiVersion: v1
     appVersion: v0.0.11
-    created: "2021-01-11T19:34:34.08415579Z"
+    created: "2021-01-11T19:42:32.631728595Z"
     description: Helm chart that deploys the group-sync-operator
     digest: d94fd7305ec8dbf9ee08163f86c191cbb33266e63db06e8492be02ebb87f3c68
     keywords:
@@ -17,7 +31,7 @@ entries:
     version: v0.0.11
   - apiVersion: v1
     appVersion: v0.0.9
-    created: "2021-01-11T19:34:34.084499403Z"
+    created: "2021-01-11T19:42:32.632393252Z"
     description: Helm chart that deploys the group-sync-operator
     digest: 9a2fed700d978e42a1fd38e8258b096e282dc9e58e1746e9522a4b9eb902ca2a
     keywords:
@@ -29,4 +43,4 @@ entries:
     urls:
     - https://Koma-Andrea.github.io/group-sync-operator/group-sync-operator/group-sync-operator-v0.0.9.tgz
     version: v0.0.9
-generated: "2021-01-11T19:34:34.083290058Z"
+generated: "2021-01-11T19:42:32.630924426Z"
